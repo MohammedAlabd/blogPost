@@ -1,41 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Blog</title>
 </head>
-<body>
-    <header class="page__header">
-        <nav class="navbar__menu">
-            <ul id="navbar__list">
-                <li><a href="#">subscribe</a></li>
-                <li><a href="#"><i class="fab fa-searchengin"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- <header class="main__hero">
-            <h1>Blog post Page </h1>
-        </header> -->
 
-    </main>
-    <aside>
-        <section id="blog__about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio in commodi sed labore molestias cum, alias corporis at a aliquam deserunt adipisci debitis ab, beatae sunt nam nulla non eius?
-        </section>
-        <section id="blog__archives">
-            <ul>
-                <li><a href="#">Jun 2020</a></li>
-                <li><a href="#">May 2020</a></li>
-                <li><a href="#">Apr 2020</a></li>
-                <li><a href="#">Mar 2020</a></li>
-                <li><a href="#">Feb 2020</a></li>
-                <li><a href="#">Jan 2020</a></li>
-                <li><a href="#">Jun 2020</a></li>
-            </ul>
-        </section>
-        <section id="blog__elsewhere"></section>
-    </aside>
+<body>
+    <div class="grid__container">
+        <header class="page__header">
+            <nav class="navbar__menu">
+                <ul id="navbar__list">
+                    <li><a href="#">subscribe</a></li>
+                    <li><a href="#"><i class="fab fa-searchengin"></i></a></li>
+                </ul>
+            </nav>
+            <div class="main__hero">
+                <h1>Blog post Page </h1>
+            </div>
+        </header>
+
+        <main class="page__main">
+            <div class="container">
+                <div class="blog__title">
+                    <h1>Sample Blog</h1>
+                    <small>Jan 1 2020 by <a href="#"> Jaime </a></small>
+                </div>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis ad, soluta voluptate.
+                </p>
+
+                <div class="blog__body">
+                    <p class="blog__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis, saepe,
+                        similique
+                        facilis veritatis ad in doloribus laboriosam dignissimos id labore quos! Eveniet ratione
+                        consequatur,
+                        dolore perspiciatis omnis animi nihil?
+                    </p>
+                    <p class="blog__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis, saepe,
+                        similique
+                        facilis veritatis ad in doloribus laboriosam dignissimos id labore quos! Eveniet ratione
+                        consequatur,
+                        dolore perspiciatis omnis animi nihil Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt,
+                        voluptates? Fugit illo fuga nam odio, quis, doloremque praesentium, impedit perspiciatis
+                        architecto
+                        facilis aliquam culpa quae est dicta explicabo. Velit, quae.
+                    </p>
+                    <div class="blog__quote">
+                        <p class="blog__paragraph">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ratione repellat non eius
+                            saepe
+                            nulla corporis aperiam architecto eligendi ab a, doloribus omnis laboriosam, illum assumenda
+                            sunt!
+                            Esse, architecto aperiam?
+                        </p>
+                    </div>
+                    <h2>Heading</h2>
+                    <p class="blog__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus fuga, veniam dolorum
+                        perferendis, voluptas nemo incidunt harum autem ratione reprehenderit distinctio modi maxime
+                        facere
+                        quod
+                        id illum omnis officiis.
+                    </p>
+                    <h3> Sub Header</h3>
+                    <p class="blog__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus fuga, veniam dolorum
+                    </p>
+                    <div class="blog__code_block">
+                        <p class="blog__paragraph">
+                            <code>
+                                function add (a,b) {
+                            </code> <br>
+                            <code class="chiled">
+                                return a + b
+                            </code> <br>
+                            <code>
+                            }
+                            </code> <br>
+
+
+                        </p>
+                    </div>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                    </ul>
+
+                    <p class="blog__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque ducimus cumque
+                    </p>
+
+                    <ol>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+        <aside class="page__aside">
+            <div >
+                <section id="blog__about">
+                    <h3>about</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio in commodi sed labore molestias
+                    cum, alias corporis
+                </section>
+                <section id="blog__archives">
+                    <h3>Archive</h3>
+                    <ul>
+                        <li><a href="#">Jun 2020</a></li>
+                        <li><a href="#">May 2020</a></li>
+                        <li><a href="#">Apr 2020</a></li>
+                        <li><a href="#">Mar 2020</a></li>
+                        <li><a href="#">Feb 2020</a></li>
+                        <li><a href="#">Jan 2020</a></li>
+                        <li><a href="#">Jun 2020</a></li>
+                    </ul>
+                </section>
+                <section id="blog__elsewhere"></section>
+            </div>
+        </aside>
+        <footer class="page__footer">
+            <a class="card__button">Newer One</a>
+            <a class="card__button">Older One</a>
+        </footer>
+    </div>
+
+    <!-------- Font Awesome -------->
+    <script src="./js/all.js"></script>
 </body>
+
 </html>
