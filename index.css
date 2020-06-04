@@ -1,6 +1,6 @@
-@import "./all.css";
-@import "./cards.css";
-@import "./header.css";
+@import "./css/all.css";
+@import "./css/cards.css";
+@import "./css/header.css";
 
 * {
   box-sizing: border-box;
