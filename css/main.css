@@ -1,0 +1,17 @@
+@import "./all.css";
+@import "./cards.css";
+@import "./header.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.main__hero {
+  text-align: center;
+}
+
+#section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
