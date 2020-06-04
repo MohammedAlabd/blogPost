@@ -79,7 +79,7 @@ h2 {
   text-overflow: ellipsis;
 }
 
-a.more-btn {
+a.card__button {
   display: inline-block;
   padding: 0.35em 1.2em;
   border: 0.1em solid #000;
@@ -93,14 +93,20 @@ a.more-btn {
   text-align: center;
   transition: all 0.2s;
 }
-a.more-btn:hover {
+a.card__button:hover {
   cursor: pointer;
   color: #fff;
   background-color: #000;
 }
 @media all and (max-width: 30em) {
-  a.more-btn {
+  a.card__button {
     display: block;
     margin: 0.4em auto;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .blog__card{
+    width: 90%;
   }
 }
