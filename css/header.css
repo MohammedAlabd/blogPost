@@ -1,18 +1,18 @@
-ul {
-    padding: 5px 20px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  ul li {
-    font-size: 20px;
-  }
-  
-  ul li a {
-    color: #ccc;
-  }
-  
-  ul li a:hover {
-    color: blueviolet;
-  }
+.page__header ul {
+  padding: 5px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__header ul li {
+  font-size: 20px;
+}
+
+.page__header ul li a {
+  color: #ccc;
+}
+
+.page__header ul li a:hover {
+  color: blueviolet;
+}
